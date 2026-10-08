@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mailbox MCP — Politique de confidentialité</title>
+<style>
+  :root{--fg:#1a1a1a;--muted:#555;--bg:#fff;--accent:#2d5be3}
+  @media (prefers-color-scheme: dark){:root{--fg:#e8e8e8;--muted:#aaa;--bg:#111}}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:40px 16px;color:var(--fg);background:var(--bg);line-height:1.6}
+  h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.6em}
+  .muted{color:var(--muted)}a{color:var(--accent)}
+</style>
+</head>
+<body>
+<h1>Politique de confidentialité — Mailbox MCP</h1>
+<p class="muted">Dernière mise à jour : 8 octobre 2026</p>
+
+<p>Mailbox MCP (« l'application ») est un outil personnel en ligne de commande utilisé
+exclusivement par son propriétaire pour accéder à ses propres comptes de messagerie.
+Cette politique décrit la manière dont l'application traite les données.</p>
+
+<h2>Responsable</h2>
+<p>Julien Vastenaekels — contact : <a href="mailto:julien.vastenaekels@gmail.com">julien.vastenaekels@gmail.com</a>.</p>
+
+<h2>Données consultées</h2>
+<p>Lorsqu'elle est connectée à un compte Google, l'application utilise le périmètre
+<code>gmail.modify</code> pour lire les messages, créer et modifier des brouillons, gérer les
+libellés et déplacer des messages vers la corbeille, à la demande du propriétaire du compte.
+L'application n'envoie jamais de courriel et ne supprime jamais définitivement un message normal.</p>
+
+<h2>Stockage et transmission</h2>
+<p>L'application s'exécute localement sur la machine de l'utilisateur. Les jetons d'authentification
+OAuth et les éventuelles copies locales de messages (cache) sont stockés uniquement sur cette machine,
+dans le répertoire de l'utilisateur. Aucune donnée de messagerie n'est transmise à un serveur tiers,
+ni à l'auteur de l'application, ni à qui que ce soit d'autre. L'application ne contient ni analytique,
+ni traçage, ni publicité.</p>
+
+<h2>Partage avec des tiers</h2>
+<p>Aucun. Les données restent entre le compte de messagerie de l'utilisateur et sa propre machine.
+L'usage des données de l'API Google par cette application respecte la
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+y compris ses exigences d'utilisation limitée (Limited Use).</p>
+
+<h2>Suppression des données</h2>
+<p>Le propriétaire peut révoquer l'accès à tout moment depuis
+<a href="https://myaccount.google.com/permissions">la page des autorisations de son compte Google</a>,
+et supprimer les jetons et caches locaux en effaçant les fichiers de configuration et de cache de
+l'application sur sa machine.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question : <a href="mailto:julien.vastenaekels@gmail.com">julien.vastenaekels@gmail.com</a>.</p>
+</body>
+</html>
